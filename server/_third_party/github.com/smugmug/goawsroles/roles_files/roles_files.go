@@ -8,8 +8,6 @@ package roles_files
 import (
 	"errors"
 	"fmt"
-	fsnotify "github.com/FiloSottile/Heartbleed/server/_third_party/github.com/howeyc/fsnotify"
-	roles "github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/goawsroles/roles"
 	"io/ioutil"
 	"log"
 	"os"
@@ -17,6 +15,9 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	fsnotify "github.com/yryz/Heartbleed/server/_third_party/github.com/howeyc/fsnotify"
+	roles "github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/goawsroles/roles"
 )
 
 const (

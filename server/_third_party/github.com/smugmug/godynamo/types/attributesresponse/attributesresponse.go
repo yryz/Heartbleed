@@ -2,9 +2,9 @@
 package attributesresponse
 
 import (
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributevalue"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/capacity"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/itemcollectionmetrics"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributevalue"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/capacity"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/itemcollectionmetrics"
 )
 
 type AttributesResponse struct {

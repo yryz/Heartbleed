@@ -6,7 +6,8 @@ package expected
 import (
 	"encoding/json"
 	"errors"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributevalue"
+
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributevalue"
 )
 
 type Expected map[string]*Constraints

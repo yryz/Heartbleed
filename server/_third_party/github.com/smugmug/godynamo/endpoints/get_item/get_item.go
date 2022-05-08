@@ -9,13 +9,14 @@ package get_item
 import (
 	"encoding/json"
 	"errors"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/authreq"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/aws_const"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributestoget"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributevalue"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/capacity"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/expressionattributenames"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/item"
+
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/authreq"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/aws_const"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributestoget"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributevalue"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/capacity"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/expressionattributenames"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/item"
 )
 
 const (

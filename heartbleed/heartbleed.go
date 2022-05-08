@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/FiloSottile/Heartbleed/heartbleed/tls"
+	"github.com/yryz/Heartbleed/heartbleed/tls"
 )
 
 type Target struct {
@@ -90,8 +90,9 @@ func Heartbleed(tgt *Target, payload []byte, skipVerify bool) (string, error) {
 	if err != nil {
 		return "", err
 	}
+	// defer time.Sleep(30 * time.Second) // debug 复现chan写入阻塞
 
-	res := make(chan error)
+	res := make(chan error, 1)
 	closeNotifySent := false
 	go func() {
 		// Needed to process the incoming heartbeat

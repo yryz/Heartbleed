@@ -7,22 +7,23 @@
 package endpoint
 
 import (
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributedefinition"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributesresponse"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributestoget"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributevalue"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/aws_strings"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/capacity"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/expected"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/globalsecondaryindex"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/item"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/itemcollectionmetrics"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/keydefinition"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/localsecondaryindex"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/nullable"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/provisionedthroughput"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/returnvalues"
 	"net/http"
+
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributedefinition"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributesresponse"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributestoget"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributevalue"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/aws_strings"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/capacity"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/expected"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/globalsecondaryindex"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/item"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/itemcollectionmetrics"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/keydefinition"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/localsecondaryindex"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/nullable"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/provisionedthroughput"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/returnvalues"
 )
 
 // re-exported consts for backwards compatibility

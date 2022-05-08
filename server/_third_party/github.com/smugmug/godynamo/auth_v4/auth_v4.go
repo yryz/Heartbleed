@@ -9,9 +9,6 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/auth_v4/tasks"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/aws_const"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/conf"
 	"hash"
 	"hash/crc32"
 	"io"
@@ -20,6 +17,10 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/auth_v4/tasks"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/aws_const"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/conf"
 )
 
 const (

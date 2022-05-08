@@ -38,7 +38,7 @@ func TestBleedSafe(t *testing.T) {
 
 func TestBleedVulnerable(t *testing.T) {
 	// VULNERABLE
-	tgt := Target{"www.cloudflarechallenge.com", "https"}
+	tgt := Target{"heartbleed.ssldemo.cn", "https"}
 	_, err := Heartbleed(&tgt, []byte("FiloSottile/Heartbleed"), false)
 	if err != nil {
 		t.Errorf("www.cloudflarechallenge.com: %v", err)
