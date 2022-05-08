@@ -29,13 +29,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/conf"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/conf_file"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/endpoints/get_item"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/endpoints/put_item"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/keepalive"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributevalue"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/item"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/conf"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/conf_file"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/endpoints/get_item"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/endpoints/put_item"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/keepalive"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/attributevalue"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/item"
 )
 
 var CACHE_TAB = "Heartbleed"

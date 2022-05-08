@@ -7,14 +7,15 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/auth_v4"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/aws_const"
-	ep "github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/endpoint"
 	"log"
 	"math"
 	"math/rand"
 	"net/http"
 	"time"
+
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/auth_v4"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/aws_const"
+	ep "github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/endpoint"
 )
 
 const (

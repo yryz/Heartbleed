@@ -6,9 +6,10 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/aws_strings"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/keydefinition"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/provisionedthroughput"
+
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/aws_strings"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/keydefinition"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/types/provisionedthroughput"
 )
 
 type GlobalSecondaryIndex struct {

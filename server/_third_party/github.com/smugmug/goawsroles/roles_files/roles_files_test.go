@@ -2,8 +2,9 @@ package roles_files
 
 import (
 	"fmt"
-	roles "github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/goawsroles/roles"
 	"testing"
+
+	roles "github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/goawsroles/roles"
 )
 
 func TestRolesFiles(t *testing.T) {

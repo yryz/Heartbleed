@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/FiloSottile/Heartbleed/heartbleed"
+	"github.com/yryz/Heartbleed/heartbleed"
 )
 
 var usageMessage = `This is a tool for detecting OpenSSL Heartbleed vulnerability (CVE-2014-0160).
@@ -55,7 +55,7 @@ func main() {
 	}
 
 	out, err := heartbleed.Heartbleed(tgt,
-		[]byte("github.com/FiloSottile/Heartbleed"), !(*check_cert))
+		[]byte("github.com/yryz/Heartbleed"), !(*check_cert))
 	if err == heartbleed.Safe {
 		log.Printf("%v - SAFE", tgt.HostIp)
 		os.Exit(0)

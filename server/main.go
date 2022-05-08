@@ -7,10 +7,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/docopt/docopt-go"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/docopt/docopt-go"
 
-	"github.com/FiloSottile/Heartbleed/heartbleed"
-	"github.com/FiloSottile/Heartbleed/server/cache"
+	"github.com/yryz/Heartbleed/heartbleed"
+	hbcache "github.com/yryz/Heartbleed/server/cache"
 )
 
 var PAYLOAD = []byte("filippo.io/Heartbleed")

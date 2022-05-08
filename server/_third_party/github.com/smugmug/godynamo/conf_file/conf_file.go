@@ -3,9 +3,6 @@ package conf_file
 
 import (
 	"encoding/json"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/goawsroles/roles_files"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/aws_const"
-	"github.com/FiloSottile/Heartbleed/server/_third_party/github.com/smugmug/godynamo/conf"
 	"io/ioutil"
 	"log"
 	"net"
@@ -13,6 +10,10 @@ import (
 	"os"
 	"path/filepath"
 	"strconv"
+
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/goawsroles/roles_files"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/aws_const"
+	"github.com/yryz/Heartbleed/server/_third_party/github.com/smugmug/godynamo/conf"
 )
 
 // Read will look for and read in the conf file, which can then be referenced as conf.Vals.
